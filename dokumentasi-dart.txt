@@ -1,0 +1,17 @@
+printer di dart: print(object);
+variable di dart = var nama = ....
+jika mengambil variable bisa menggunakan $ dan dibungkus kurawal contoh:
+print("Hello ${namavar}")
+
+var bisa digunakan di segala tipe data
+selain var ada String, int
+
+operasi di String:
+
+namaVar.contains() = mengandung string tertentu atau char tertenti
+namaVar.toLowerCase()
+namaVar.toUpperCase
+
+namaVar.toString() untuk mengubaha int ke string 
+namaVar.split(pattern); mengubah string menjadi list
+namaVar.substring(startindex, endIndex) dia akan memunculkan string setelah index ke tersebut
