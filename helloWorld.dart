@@ -3,7 +3,7 @@ void main (){
   /* MultiLine Comment */ 
   var name = "Dart";
   // str
-  String coba = "Mencoba dart";
+  String coba = "Mencoba dart bersama Atharafi";
   // int
   int angka = 12;
   // Map
@@ -16,12 +16,16 @@ void main (){
   // boolean
   var bool = true;
   print(coba.contains("Dart"));
+  print(coba.toLowerCase());
+  print(coba.toUpperCase());
+  print(coba.split(" "));
+  print(angka.toString());
+  print(coba.substring(5, 10));
   print(coba + " "+ name +" Ini ${angka}" );
   print(flyobj[1]);
   print(object);
   print(bool);
-  print(coba.toLowerCase());
-  
+
 }
 
 
