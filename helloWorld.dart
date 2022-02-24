@@ -27,6 +27,12 @@ void main (){
   print(bool);
   print(coba.length);
   print(coba.trim());
+  print(coba.codeUnitAt(2));
+  print(coba.indexOf('dart'));
+  print(coba.startsWith(' Mencoba'));
+  print(coba.endsWith("afi "));
+  print(coba.isEmpty);
+  print(coba.isNotEmpty);
 }
 
 

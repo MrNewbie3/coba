@@ -17,3 +17,9 @@ namaVar.split(pattern); mengubah string menjadi list
 namaVar.substring(startindex, endIndex) dia akan memunculkan string setelah index ke tersebut
 namaVar.length untuk menampilan panjang char di string
 namaVar.trim() untuk menghilangkan spasi di bagian awal setelah ' dan dibagian akhir sebelum '
+namaVar.codeUnitAt(index) untuk mengubah char menjadi nilai desimal ASCII
+namaVar.indexOf('')  untuk menampilkan index dari character, jika ada lebih dari 1 maka yang ditampilkan yang pertama
+namaVar.startsWith() untuk mengecek apakah string diawali dengan kata tersebut
+namaVar.endWith() ------------=------------------ diakhiri ....
+namaVar.isEmpty untuk mengecek apakah string pada variable kosong
+namaVar.isNotempty untuk mengecek apakah ada isinya 
