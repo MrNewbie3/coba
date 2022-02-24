@@ -15,3 +15,5 @@ namaVar.toUpperCase
 namaVar.toString() untuk mengubaha int ke string 
 namaVar.split(pattern); mengubah string menjadi list
 namaVar.substring(startindex, endIndex) dia akan memunculkan string setelah index ke tersebut
+namaVar.length untuk menampilan panjang char di string
+namaVar.trim() untuk menghilangkan spasi di bagian awal setelah ' dan dibagian akhir sebelum '

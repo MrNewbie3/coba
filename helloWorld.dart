@@ -3,7 +3,7 @@ void main (){
   /* MultiLine Comment */ 
   var name = "Dart";
   // str
-  String coba = "Mencoba dart bersama Atharafi";
+  String coba = " Mencoba dart bersama Atharafi ";
   // int
   int angka = 12;
   // Map
@@ -25,7 +25,8 @@ void main (){
   print(flyobj[1]);
   print(object);
   print(bool);
-
+  print(coba.length);
+  print(coba.trim());
 }
 
 
