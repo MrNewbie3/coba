@@ -14,4 +14,8 @@ void main() {
   print(membalikMahasiswa);
   mahasiswa.clear();
   print(mahasiswa);
+  List<String> iniCoba = ['Nama','Saya','Roni','Michael','Hartono'];
+  for (var item in dynamicList) {
+    print(item.toString());
+  }
 }

@@ -37,3 +37,10 @@ LIST
 berfungsi untuk menyimpan sekumpulan object atau data seperti array namun bisa memiliki nilai berbeda
 List<typedata> maka dia hanya akan memiliki tipe data sesuai dengan yaang ada di <>
 List namaList maka dia bersifat dynamic
+list opeation:
+
+namaList.add() ==> digunakan untuk menambahkan nilai list / isi list 
+namaList.addAll() ==> digunakan untuk menambahkan nilai list dari list lain (nilai list lain akan masuk semua)
+namaList.sort() ==> digunakan untuk mengurutkan nilai list dari alphabet a-z
+namalist.clear() ==> digunakan untuk membersihkan semua isi list
+namaList.reversed ==>
