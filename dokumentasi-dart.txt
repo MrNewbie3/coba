@@ -23,3 +23,17 @@ namaVar.startsWith() untuk mengecek apakah string diawali dengan kata tersebut
 namaVar.endWith() ------------=------------------ diakhiri ....
 namaVar.isEmpty untuk mengecek apakah string pada variable kosong
 namaVar.isNotempty untuk mengecek apakah ada isinya 
+.runtimeType untuk mengecek tipe data
+.floor() membulatkan kebawah
+.ceil() membulatkan ke atas
+.round() sesuai dengan aturan pembulatan
+.toStringAsFixed(jumlah) untuk menampilkan berapa digit dibelakang koma
+.toStringPrecision(jumlah) untuk menampilkan berapa digit pertama secara keseluruhan
+tipe data number:
+num, int, double
+
+
+LIST
+berfungsi untuk menyimpan sekumpulan object atau data seperti array namun bisa memiliki nilai berbeda
+List<typedata> maka dia hanya akan memiliki tipe data sesuai dengan yaang ada di <>
+List namaList maka dia bersifat dynamic
