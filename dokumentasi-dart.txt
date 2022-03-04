@@ -44,3 +44,45 @@ namaList.addAll() ==> digunakan untuk menambahkan nilai list dari list lain (nil
 namaList.sort() ==> digunakan untuk mengurutkan nilai list dari alphabet a-z
 namalist.clear() ==> digunakan untuk membersihkan semua isi list
 namaList.reversed ==>
+
+
+MAP 
+berisi seperti object {'key': 'Value'}
+untuk menampilkan value dari key pertama maka cara memanggilnya adalah: print(namaMap[key])
+
+operasi pada map: 
+namaMap.keys = menampilkan keys
+namaMap.values = menampilkan value
+namaMap.containsKey('namaKey') = untuk mengecek apakah map memiliki key yang dipilih
+namaMap.containsValue('namaValue') = untuk mengecek apakah map memiliki value tertentu
+namaMap.length = untuk menampilkan panjang map
+namaMap.remove('key') = untuk menghapus key dan value nya
+untuk mengubah tinggal mengganti biasa
+
+
+
+Operator Pada dart
+int a = 5;
+int b = 10;
+int sum = a + b;
+int min = a - b;
+int times = a*b ;
+double div =  a / b  ;
+int modulo = a % b; 
+
+print(sum);
+print(min);
+print(times);
+print(div);
+print(modulo);
+
+
+  // equality operator
+print(a > b);
+print(a<b);
+print(a = b);
+print(a != b);
+print(a >=b);
+print(a<=b);
+
+  // Logical Operator
