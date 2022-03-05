@@ -86,3 +86,6 @@ print(a >=b);
 print(a<=b);
 
   // Logical Operator
+  if else, switch sama seperti java
+  method sama seperti java tetapi tidak memakai public static
+  langsung void / int / string
