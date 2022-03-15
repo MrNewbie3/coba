@@ -5,7 +5,7 @@ print("Hello ${namavar}")
 
 var bisa digunakan di segala tipe data
 selain var ada String, int
-
+nullable variable: tipedata? namavariable;
 operasi di String:
 
 namaVar.contains() = mengandung string tertentu atau char tertenti
@@ -89,3 +89,81 @@ print(a<=b);
   if else, switch sama seperti java
   method sama seperti java tetapi tidak memakai public static
   langsung void / int / string
+
+
+OOP Dart
+
+Class & Object sama aja seperti java, hanya saja di awal variable dart
+supaya bisa bisa nullable maka diberi properties late
+
+contructor function
+sama juga seperti java
+hanya saja jika parameter tidak wajib diisi maka harus dibungkus dengan {}
+
+get & set 
+  void setPemilik (String namaPemilik){
+    this.namaPemilik = namaPemilik;
+  }
+  String get getPemilik {
+    return namaPemilik;
+  }
+
+
+Inheritance
+sama seperti java, juga menggunakan keyword extends 
+
+interface sama dengan java hanya saja tidak menggunakan interface di superclass
+langsung menggunakan implements di subclass. pada interface juga bisa menggunakan
+lebih dari 1 superclass (multiple class)
+
+abstract class tidak bisa dipanggil, abstrack class hanya bisa dijalankan
+karena abstract class hanya sebagai kerangka
+
+mixin
+mixin yaitu sebuah class mewarisi sifat dari 2 class parent contoh:
+mixin mamalia {
+  void methodMamalia(){
+    print("Method Mamalia");
+  }
+}
+
+mixin berkakiEmpat {
+  void methodBerkakiEmpat(){
+    print("Method berkaki empat");
+  }
+}
+
+class sapi with mamalia, berkakiEmpat {
+  void methodSapi(){
+    print("Method sapi");
+  }
+}
+
+Arrowfunction
+
+void namafungsi (type Parameter) => (
+  expression
+)
+arrow function tidak memerlukan return
+
+Synchronous 
+-menampilkan output sesuai dengan urutan kode
+misal kode: a, b, c
+output: a, b, c
+
+Asynchronous 
+-menampilkan output tidak sesuai dengan urutan kode
+misal kode: a, b, c, d
+output: a,b,d,c
+dia akan mengeluarkan output mana yang bisa dikeluarkan
+terlebih dahulu
+keyword async digunakan untuk memberitahu bahwa sebuah fungsi adalah Asynchronous
+keyword await digunakan untuk menunggu proses data selsai baru dilakukan return
+Await
+
+
+try digunakan apabila code berhasil dieksekusi
+catch akan dieksekusi ketika kode di dalam try terdapat error
+
+static keyword (digunakan di instance variabel dan method) digunakan untuk membuat
+variable statis dan method statis
