@@ -146,6 +146,9 @@ void namafungsi (type Parameter) => (
 )
 arrow function tidak memerlukan return
 
+LambdaFunction
+
+
 Synchronous 
 -menampilkan output sesuai dengan urutan kode
 misal kode: a, b, c
@@ -166,4 +169,27 @@ try digunakan apabila code berhasil dieksekusi
 catch akan dieksekusi ketika kode di dalam try terdapat error
 
 static keyword (digunakan di instance variabel dan method) digunakan untuk membuat
-variable statis dan method statis
+variable statis dan method statis. cara memanggilnya di main func adalah tinggal mengetik class
+nya dan langsung memanggil function / args nya di dalam static method hanya bisa memanggil static 
+method juga dan tidak bisa memanggil menggunakan this
+
+EXCEPTION HANDLING
+mengatasi pengecualian (error)
+Exeption Handling keyword:
+-Try
+ketika program berjalan maka lakukan kode
+-catch
+jika diterjemahkan ke bahasa manusia
+ketika ada error maka lakukan kode 
+digunakan jika tidak mengetahui jenis error
+-On jenisError
+digunakan ketika tau jenis error yang terjadi
+ketika error jenisError terjadi maka lakukan kode
+-Finally 
+akan selalu dieksekusi, ntah ada error / tidak
+
+StackTrace
+untuk mengetahui di bagian mana error terjadi
+
+Throw
+digunakan untuk menjalankan / mengetahui exception yang terjadi

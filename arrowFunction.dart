@@ -8,5 +8,9 @@ void inifungsiBiasa(String cobaFungsi){
 void namaFungsi(String parameter)=>{
   print("object")
 };
+Function coba = (String coba, int nama)=>{
+  print("$coba $nama")
+};
+coba("Kali mencoba:",12);
 namaFungsi("parameter");
 }

@@ -19,5 +19,5 @@ void main() {
   print(mahasiswa.length);
   print(mahasiswa.remove('nama'));
   mahasiswa['nama'] = 'Alfian';
-  print(mahasiswa);  
+  print(mahasiswa);
 }
